@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Sono&display=swap');
+
+body {
+  background-color: red;
+  background-image: linear-gradient(45deg, white 25%, transparent 25.5%, transparent 50%, white 50.5%, white 75%, transparent 75.5%, transparent);
+  background-size: 50px 50px;
+}
+
+button {
+  background-color: rgb(125, 240, 48);
+  color: red;
+  border-radius: 1vh;
+  box-shadow: 2px 2px darkgreen;
+}
+
+button:hover {
+  transform: translateY(-0.25vh);
+}
+
+.App {
+  text-align: center;
+  background-color: rgb(3, 169, 3);
+  padding: 20px;
+  margin: 20px;
+  font-family: "Sono";
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.displayFun {
+  margin: 10px;
+  padding: 8px;
+  border:2px solid white;
+  align-items: center;
+  justify-content: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.active {
+  color: white;
+}
+
+
+a:link {
+  color: rgb(125, 240, 48);
+}
+
+a:hover {
+  color: white;
+}
+
+.pretty {
+  background-color: red;
+  color: white;
+  margin: 0px 0px 15px 0px;
+  padding: 20px;
+  width: 85%
+}
+
+.navNav {
+  display: flex;
+  justify-content: space-around;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
